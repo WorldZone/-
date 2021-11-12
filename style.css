@@ -457,6 +457,7 @@ body {
     font-family: 'Baloo Bhai 2', cursive;
     padding: 15px;
     display: flex;
+    margin: 30px;
     flex-direction: column;
     align-items: center;
 }
@@ -708,8 +709,21 @@ footer {
         text-align: center;
         font-family: 'Baloo Bhai 2', cursive;
     }
-}
 
+    .v-head h2{
+        font-size: 2.2rem;
+    }
+
+    
+
+
+/* Media Query at 600px */
+
+@media (max-width:600px){
+    .my-text{
+        max-width: 90vw;
+    }
+}
 
 /* Media Query at 360px */
 
@@ -752,7 +766,7 @@ footer {
     }
 
     .v-head h2 {
-        font-size: 22px;
+        font-size: 20px;
         margin: 10px auto;
         padding: 3px;
     }
@@ -779,7 +793,7 @@ footer {
     .t-head a button{
         font-size: small;
     }
-    
+
     footer {
         font-size: 13px;
         font-family: 'Baloo Bhai 2', cursive;
