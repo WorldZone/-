@@ -5,8 +5,8 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
+
 
 /* Body styling */
 
@@ -15,6 +15,7 @@ html {
     font-family: 'Baloo Bhai 2', cursive !important;
 }
 
+
 /* home styling starts here */
 
 #home {
@@ -22,10 +23,11 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    
 }
 
+
 /* navbar styling starts here  */
+
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 html,
 body {
@@ -36,14 +38,16 @@ body {
     font-size: 10px;
 }
 
-.logo h2{
+.logo h2 {
     color: white;
     font-size: 3rem;
     font-family: 'Baloo Bhai 2';
-    
 }
+
+
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
+
 
 /* Navbar section */
 
@@ -170,6 +174,8 @@ body {
 
 
 /* Animation */
+
+
 /* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
 
 .navTrigger {
@@ -366,25 +372,22 @@ body {
     background-color: #111;
 }
 
-
-
-
-
-
 .myH2 {
-	text-align:center;
-	font-size: 4rem;
+    text-align: center;
+    font-size: 4rem;
 }
+
 .myP {
-	text-align: justify;
-	padding-left:15%;
-	padding-right:15%;
-	font-size: 20px;
+    text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 20px;
 }
-@media all and (max-width:700px){
-	.myP {
-		padding:2%;
-	}
+
+@media all and (max-width:700px) {
+    .myP {
+        padding: 2%;
+    }
 }
 
 
@@ -400,7 +403,6 @@ body {
 
 .home .home-text {
     max-width: 500px;
-    
 }
 
 .home .home-text h2 {
@@ -416,13 +418,12 @@ body {
     font-family: 'Baloo Bhai 2';
     margin: 5px;
     font-weight: bolder;
-    
-   
 }
 
 .home .home-img img {
     border-radius: 20%;
 }
+
 
 /* Microsoft Office styling starts here  */
 
@@ -444,7 +445,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
 .link {
@@ -455,17 +456,15 @@ body {
     min-width: 200px;
     font-family: 'Baloo Bhai 2', cursive;
     padding: 15px;
-    margin: 30px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .link img {
     margin: 5px;
     width: 200px;
     height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .link h1 {
@@ -475,22 +474,22 @@ body {
     font-size: 20px;
     color: rgb(18, 92, 18);
     font-weight: bolder;
-    
 }
 
-.link h4{
+.link h4 {
     text-align: center;
     font-size: 15px;
     margin: 5px;
 }
 
-.link h4 a{
+.link h4 a {
     text-align: center;
     font-size: 15px;
     text-decoration: none;
+    color: rgb(76, 16, 243);
 }
 
-.link h4 a:hover{
+.link h4 a:hover {
     background-color: rgb(0, 0, 0);
     color: white;
     font-weight: lighter;
@@ -501,23 +500,24 @@ body {
     transition: 0.3s;
 }
 
-/* youtube-video styling starts here */ 
-.video{
+
+/* youtube-video styling starts here */
+
+.video {
     display: flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
-    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.v-head{
+.v-head {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
 
-.v-head h2{
+.v-head h2 {
     font-family: 'Baloo Bhai 2', cursive;
     font-size: 25px;
     font-weight: bold;
@@ -531,7 +531,7 @@ body {
     background-color: rgb(220, 219, 219)
 }
 
-.v-head a button{
+.v-head a button {
     font-family: 'Baloo Bhai 2';
     cursor: pointer;
     padding: 5px;
@@ -543,14 +543,13 @@ body {
     border: 1px solid rgb(132, 127, 127)
 }
 
-
-.v-head a button:hover{
+.v-head a button:hover {
     background-color: black;
     color: white;
     transition: 0.3s;
 }
 
-.v-body{
+.v-body {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -558,7 +557,7 @@ body {
     justify-content: center;
 }
 
-.v-body iframe{
+.v-body iframe {
     width: 29rem;
     height: auto;
     margin: 15px;
@@ -567,22 +566,22 @@ body {
     border: 2px solid rgb(219, 194, 146);
 }
 
+
 /* thought styling starts here. */
 
-.thought{
+.thought {
     display: flex;
     flex-wrap: wrap;
-    
 }
 
-.t-head{
+.t-head {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
 
-.t-head h2{
+.t-head h2 {
     font-family: 'Baloo Bhai 2', cursive;
     font-size: 25px;
     font-weight: bold;
@@ -596,7 +595,7 @@ body {
     background-color: rgb(220, 219, 219)
 }
 
-.t-head a button{
+.t-head a button {
     font-family: 'Baloo Bhai 2';
     cursor: pointer;
     padding: 5px;
@@ -608,14 +607,13 @@ body {
     border: 1px solid rgb(132, 127, 127)
 }
 
-
-.t-head a button:hover{
+.t-head a button:hover {
     background-color: black;
     color: white;
     transition: 0.3s;
 }
 
-.t-body{
+.t-body {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -623,9 +621,10 @@ body {
     justify-content: center;
 }
 
+
 /* thoughts styling starts here */
 
-.mythou{
+.mythou {
     font-family: 'Baloo Bhai 2';
     display: block;
     width: 95%;
@@ -638,7 +637,7 @@ body {
     justify-content: space-evenly;
 }
 
-.my-text{
+.my-text {
     display: flex;
     align-items: center;
     height: auto;
@@ -650,12 +649,7 @@ body {
     margin: 10px;
     font-size: 2.3rem;
     padding: 7px;
-
 }
-
-
-
-
 
 
 /* footer styling starts here */
@@ -671,104 +665,85 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
 /* Media Query Starts here  */
+
 
 /* Media Query at 1065px */
 
-
-
 @media (max-width: 1065px) {
-
     @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
-   
-    .home{
+    
+    .home {
         height: 475px;
     }
 
-    .office-head{
+    .office-head {
         width: 184px;
         padding: 3px;
         margin: 15px auto;
-        
     }
 
-    .office-link{
+    .office-link {
         margin: 5px;
     }
 
-    /* .link h1{
-        width: 250px;
-        font-family: 'Baloo Bhai 2', cursive;
-    } */
-
-    .home img{
+    .home img {
         margin: 50px 0px;
-        
     }
 
-    .home .home-text{
+    .home .home-text {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .home .home-text h2{
+    .home .home-text h2 {
         font-size: 3rem;
         font-family: 'Baloo Bhai 2', cursive;
     }
 
-    .home .home-text span{
+    .home .home-text span {
         font-size: 19px;
         text-align: center;
         font-family: 'Baloo Bhai 2', cursive;
     }
 }
 
+
 /* Media Query at 360px */
 
 @media (max-width:366px) {
-
     @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
-
-
-    .home .home-text h2{
-        font-size: 2.7rem;
+    
+    .home .home-text h2 {
+        font-size: 2.5rem;
         font-family: 'Baloo Bhai 2', cursive;
-        
     }
 
-    .home .home-text span{
+    .home .home-text span {
         font-size: 15px;
         font-family: 'Baloo Bhai 2', cursive;
     }
 
-    .office-head{
+    .office-head {
         font-size: 25px;
         width: 225px;
     }
 
-    .office-link{
+    .office-link {
         margin: 0px;
     }
 
-    .link{
+    .link {
         margin: 20px;
         padding: 3px;
     }
 
-    .link img{
+    .link img {
         width: 180px;
     }
-
+    
     .link h1 {
         width: 90%;
         font-size: 15px;
@@ -776,25 +751,36 @@ footer {
         font-family: 'Baloo Bhai 2', cursive;
     }
 
-    .v-head h2{
+    .v-head h2 {
         font-size: 22px;
         margin: 10px auto;
         padding: 3px;
     }
 
-    .v-head button{
+    .v-head button {
         margin: 10px;
     }
 
-    .v-body{
+    .v-body {
         margin: 5px;
     }
-    .v-body iframe{
-        width: 200px;
+
+    .v-body iframe {
+        width: 82vw;
         height: auto;
     }
 
-    footer{
+    .t-head h2{
+        font-size: 20px;
+        padding: 0px;
+        margin: 5px;
+    }
+
+    .t-head a button{
+        font-size: small;
+    }
+    
+    footer {
         font-size: 13px;
         font-family: 'Baloo Bhai 2', cursive;
     }
