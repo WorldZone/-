@@ -661,6 +661,8 @@ footer {
 
     .t-head a button{
         font-size: small;
+        margin-left: 60%;
+        width: 90%;
     }
 
     footer {
